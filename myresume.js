@@ -27,7 +27,7 @@ var github_url="https://github.com/whoshivek";
 var facebook_url="https://www.facebook.com/prateek.narang.756";
 var linkedin_url="https://www.linkedin.com/in/shivek-aggarwal-33bba7108/";
 var resume_url="https://drive.google.com/file/d/1BukMLrUCt4z-7w9mMcV2zu97GoQboC1w/view?usp=sharing";
-var website_url="http://www.prateeknarang.com";
+var website_url="https://whoshivek.github.io/";
 var gmail_url="";
 var inst_text;
 var bug;
