@@ -26,7 +26,7 @@ var codechef_url="https://www.codechef.com/users/prateek27";
 var github_url="https://github.com/whoshivek";
 var facebook_url="https://www.facebook.com/prateek.narang.756";
 var linkedin_url="https://www.linkedin.com/in/shivek-aggarwal-33bba7108/";
-var resume_url="https://drive.google.com/file/d/1BukMLrUCt4z-7w9mMcV2zu97GoQboC1w/view?usp=sharing";
+var resume_url="https://drive.google.com/file/d/11ZBlSDL-GSr3gAOKbbrsUZVWCA9-1noj/view?usp=sharing";
 var website_url="https://whoshivek.github.io/";
 var gmail_url="";
 var inst_text;
@@ -77,9 +77,9 @@ function preload(){
 	game.load.image('level','assets/sign.png');
 	game.load.image('cocotree','assets/coco.png');
 	game.load.image('python','assets/python_white.png');
-	game.load.image('css','assets/cssn.png');
+	game.load.image('css','assets/react-native-1.png');
 	game.load.image('js','assets/js.png');
-	game.load.image('html','assets/html5.png');
+	game.load.image('html','assets/flutter.png');
 	game.load.image('night','assets/night.jpg');
 	//game.load.image('jquery','assets/jquery_white.png');
 	game.load.image('developer','assets/fullstackS.png');
@@ -88,11 +88,11 @@ function preload(){
 
 	game.load.image('frog','assets/frog.png');
 	game.load.image('sandiskPd','assets/sandiskPd.png');
-	game.load.image('sandiskLogo','assets/sandiskLogo.png');
+	game.load.image('sandiskLogo','assets/cb (1).png');
 	game.load.image('instaLogo','assets/instalabs.png');
 	game.load.image('hackerearthLogo','assets/hackerearthlogo.png');
 	game.load.image('campk12Logo','assets/campk12.png');
-	game.load.image('cbLogo','assets/cb.png');
+	game.load.image('cbLogo','assets/cb1.png');
 	game.load.image('corel','assets/corel.png');
 	game.load.image('psbubble','assets/psbubble.png');
 	game.load.image('games','assets/games.png');
@@ -231,10 +231,10 @@ function create(){
 	var style_lang = { font:"30px Roboto" ,fill:"#fff"};
 	//var style_lang = { font:"30px monospace" ,fill:"#fff"};
 
-	javatext = game.add.text(5050,h-320-50,'Python\n 88.54%',style_roboto);
-	pythontext=	game.add.text(5250,h-430-60,'Java\n 94.78%',style_white2);
+	javatext = game.add.text(5050,h-320-50,'Flutter\n 88.54%',style_roboto);
+	pythontext=	game.add.text(5250,h-430-60,'Kotlin\n 94.78%',style_white2);
 	jstext = game.add.text(5430,h-450-50,'JavaScript\n 98.48%',style_white2);
-	ctext = game.add.text(5660,h-460-50,'C/C++ \n 98.42%',style_white2);
+	ctext = game.add.text(5660,h-460-50,'React Native \n 98.42%',style_white2);
 
 	
 	javatext.alpha = 0.2;
@@ -430,11 +430,11 @@ function create(){
 	//Add company texts.
 	var style_ex = {font:"16px Arial",fill:orange,align:"center"};
 	var style_exS = {font:"12px Arial",fill:orange,align:"center"};
-	game.add.text(10080,h-210,"Wayezi, Delhi \n June-Aug 2020 \n Android Developer",style_exS);
+	game.add.text(10080,h-210,"Wayezi, Delhi \n Aug19 - Dec20 \n Mobile Developer",style_exS);
 	game.add.text(10390,h-220,"Technex, IIT BHU \n Oct-Dec 2021 \n Python Trainee",style_exS);
 	game.add.text(10700,h-230,"E-CELL\n HMRITM \n Event Coordinator",style_ex); 
-	game.add.text(11000,h-265,"GlobalShala, Illinois Tech \n Jan-March 2022 \n Data Analyst\n Intern",style_ex);
-	game.add.text(11420,h-290,"PepCoding, Delhi \n March-June 2022 \n Data Structure Instructor",style_ex);
+	game.add.text(11000,h-265,"PepCoding, Delhi \n May21 - Aug22 \n Mobile\n Devloper",style_ex);
+	game.add.text(11420,h-290,"Neuron Square LLC \n May 24-present \n Mobile Developer",style_ex);
 
 	
 
@@ -621,7 +621,7 @@ function create(){
 	game.add.sprite(4470,h-250,'images').scale.setTo(0.75,0.75);
 	aieee_cup=game.add.sprite(3500,-500,'cup');
 	game.add.text(3950,h-415,"  Scored 8.67/10 CGPA in university. \n(August 2018-July 2022)",style_roboto);
-	game.add.text(4400,h-400,"  Master's degree \n in Computer Engineering \n at New York University \n (August 2022-present)",style_roboto);
+	game.add.text(4400,h-400,"  Master's degree \n in Computer Engineering \n at New York University \n (August 2022-May 2024)",style_roboto);
 
 	
 	//Add bubble
